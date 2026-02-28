@@ -1,0 +1,91 @@
+鉴于你刚刚成功跑通了 Next.js 项目（那个 cmwebsite），你现在其实处于一个绝佳的起点！
+
+对于计算机专业的学生（你之前提到过你是大三），我不建议你去看那种“从零教你什么是变量”的保姆级教程。你需要的是高密度、实战导向、符合现代工程标准的资源。
+
+以下是我为你精心筛选的“TypeScript + 现代 Web 开发”学习路线和资源：
+
+1. 最佳起手式：Next.js 官方教程 (必看)
+你手头的项目就是 Next.js，所以这是你现在的第一优先级。
+
+资源名称： Next.js Learn (官方互动教程)
+
+为什么推荐：
+
+完全免费，质量极高。
+
+手把手实战： 它会带你用 TypeScript 从零写一个像样的全栈 Dashboard 网站（包含数据库、登录验证）。
+
+无缝衔接： 你刚配好的环境直接就能用。
+
+即学即用： 比如你刚遇到的 npm install、项目结构、路由，这里面全都会讲。
+
+2. 打地基：React 官方文档 (中文版)
+Next.js 是基于 React 的。如果你不懂 React，写 Next.js 就像在盲写。
+
+资源名称： React 官方文档 (react.dev)
+
+注意： 一定要看新的 react.dev，千万别看旧的 reactjs.org（那个是教类组件的，已经过时了）。
+
+重点章节： “描述 UI”、“添加交互”、“状态管理”。
+
+3. 系统化神课：Fullstack Open (赫尔辛基大学)
+如果你喜欢大学课程那种深度和严谨，这是全球公认最好的免费全栈课程。
+
+资源名称： Full Stack Open (全栈公开课)
+
+特点：
+
+芬兰赫尔辛基大学的计算机系课程，完全免费，有中文版。
+
+Part 9 专门讲 TypeScript：它会教你如何在真实项目中（后端 + 前端）配置和使用 TS，而不是只教语法。
+
+非常硬核，适合计算机科班学生。
+
+4. 专项突破：Total TypeScript (进阶)
+当你觉得自己会写页面了，但总是被 TS 的红线报错搞得想砸键盘时，看这个。
+
+资源名称： Total TypeScript (Matt Pocock)
+
+特点：
+
+讲师 Matt 是现在的 TS 教学大神。
+
+他的 "Beginner's TypeScript" 免费教程非常棒，专门解决“我怎么给这个 React 组件定义类型？”这种具体问题。
+
+💡 给你的一条高效学习路线 (Roadmap)
+不要试图先把 TypeScript 语法书背完再写代码，那样你会睡着的。请按这个顺序来：
+
+先跑起来 (Level 1):
+
+直接去啃 Next.js Learn。
+
+遇到不懂的 TS 语法（比如 interface, UserProps），去查一下，不要深究，先把页面画出来。
+
+目标：能修改 page.tsx 里的文字，能加一个按钮。
+
+补习 React (Level 2):
+
+看 React.dev。理解什么是 Component（组件），什么是 Props，什么是 State（状态）。
+
+目标：知道为什么你的按钮点击没反应，知道怎么把数据传给子组件。
+
+正经学 TS (Level 3):
+
+当你的代码开始变复杂，你需要明白 Type 和 Interface 的区别，什么是泛型。
+
+这时候去看 Total TypeScript 或者 TS 官方文档。
+
+⚡️ 现在的你可以做什么？
+回到你的 VS Code，打开 app/page.tsx (或者 src/app/page.tsx)。 试着改一下里面的文字（比如把 "Get started by editing" 改成 "Hello World"），保存。 看一眼浏览器，如果它自动变成了 Hello World，恭喜你，你的 Web 开发之路正式开始了！
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+web api function文档
+
+https://react.dev/learn/adding-interactivity
+react文档
+
+https://lucide.dev/icons/
+icon网站
+
+https://tailwindcss.com/

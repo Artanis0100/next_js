@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies (依赖包，上百MB的罪魁祸首)
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing (测试覆盖率报告)
+/coverage
+
+# next.js (编译缓存和导出文件，另一个巨无霸)
+/.next/
+/out/
+
+# production (生产构建目录)
+/build
+
+# misc (系统产生的垃圾文件，比如Mac的缩略图缓存)
+.DS_Store
+*.pem
+
+# debug (各种包管理器的报错日志)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files (本地环境变量，绝对不能传到GitHub，防泄漏！)
+.env*.local
+
+# vercel (Vercel 部署平台的缓存)
+.vercel
+
+# typescript (TS 的类型缓存文件)
+*.tsbuildinfo
+next-env.d.ts
