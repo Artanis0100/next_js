@@ -17,6 +17,7 @@ export default function HomePage() {
                 ))}
             </ul>
             <LikeButton />
+            <h1 className="text-blue-500"> I am blue</h1>
         </div>
     );
 }
